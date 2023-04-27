@@ -1,0 +1,89 @@
+/* 
+Margin
+- 1 valor aplicará para todos los cuatro lados.
+- 2 valores aplicarán: El primer valor para arriba y abajo, el segundo valor para izquierda y derecha.
+- 3 valores aplicarán: El primero para arriba, el segundo para izquierda y derecha, el tercero para abajo.
+- 4 valores aplicarán en sentido de las manecillas del reloj empezando desde arriba. (Arriba, derecha, abajo, izquierda)
+*/
+
+/* border box: 
+la caja que contiene el elemento, no modifica su tammaño al agregar margin y paddin*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+@font-face {
+	font-family:"fuente1";
+	src: url("fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");}
+	 
+
+	@font-face {
+	font-family:"fuente2";
+	src: url("fonts/Singkong.ttf");}
+  
+
+  body{
+	font-family: 'fuente1';
+	background-color: #f1eded;
+
+}
+
+header{
+	background-color: #f1eded;
+	text-align: center; 
+	padding: 20px;
+	font-family: 'fuente2';
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	margin: 0 15px;
+	padding: 7px 15px;
+	border-radius: 60px;
+}
+
+nav a:hover { 
+	background-color: black;
+	color: rgb(255, 255, 255);
+}
+
+#encabezado-img{
+	background-image: url(img/tela.jpeg);
+	background-size: cover;  
+    height: 750px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color:negro; } 
+	
+
+#encabezado-img p 
+
+#encabezado-img h1{
+	font-size: 70px;
+	padding: 10px 0;
+}
+
+footer{
+	font-size:30px;
+	margin-top:10px;
+	margin-left: 10px;
+	text-align: left;}
+	
+	 
+
+#descarga{
+	text-decoration: none;
+}
+
+a:hover{
+	color: rgb(157, 0, 255);
+}
+ section { } 
+
